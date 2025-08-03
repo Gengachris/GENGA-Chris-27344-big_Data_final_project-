@@ -220,7 +220,7 @@ This dashboard provides a high-level summary of customer credit risk insights ba
 
 This page offers interactive filtering to explore default patterns across various customer segments, aiding in data-driven decision-making and risk profiling.
 
-![first page of power BI](powerBI_page1.png)
+![first page of power BI](powerBI_page1.0.png)
 
 
 
@@ -246,7 +246,7 @@ This dashboard analyzes customer default behavior with a focus on risk predictio
 
 This page supports targeted risk profiling and helps identify high-risk segments for strategic credit decisions.
 
-![second page of power BI](powerBI_page2.png)
+![second page of power BI](powerBI_page2.0.png)
 
 
 ## 🧪 Feature Engineering Analysis Dashboard (Power BI)
@@ -271,7 +271,7 @@ This dashboard highlights engineered financial features used in modeling default
 - **Average Bill Category**: High, Medium, Low Spenders
 
 This page aids in identifying which engineered features are useful for predicting credit default.
-![Third page of power BI](powerBI_page3.png)
+![Third page of power BI](powerBI_page3.0.png)
 
 
 ## 🧠 DAX Usage Overview
@@ -325,6 +325,7 @@ This Power BI project utilizes DAX (Data Analysis Expressions) extensively to ca
 
 ---
 *This project demonstrates end-to-end data analytics workflow from data cleaning to machine learning and business intelligence visualization.*
+
 
 
 
