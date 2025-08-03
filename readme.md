@@ -154,7 +154,7 @@ Calculates average bill amounts across all months
 Creates a payment-to-bill ratio to measure payment behavior
 Selects the most important features for machine learning model training
 📌 **Screenshots**: 
- [ Feature engineering process](screenshots/feature_engineering1.0.png)
+ [ Feature engineering process](feature_engineering1.0.png)
 
 -
 
@@ -339,6 +339,7 @@ This Power BI project utilizes DAX (Data Analysis Expressions) extensively to ca
 
 ---
 *This project demonstrates end-to-end data analytics workflow from data cleaning to machine learning and business intelligence visualization.*
+
 
 
 
