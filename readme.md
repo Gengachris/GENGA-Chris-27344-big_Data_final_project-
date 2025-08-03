@@ -17,21 +17,82 @@
    - [Evaluation Metrics](#5-evaluation-metrics)  
    - [Innovation](#6-innovation)  
 5. [Power BI Dashboard](#power-bi-dashboard)  
-   - Visualizations and Their Purpose  
+   - [Executive Overview Dashboard](#executive-overview-dashboard-power-bi)
+   - [Risk Analysis Dashboard](#risk-analysis-dashboard-power-bi)
+   - [Feature Engineering Analysis Dashboard](#feature-engineering-analysis-dashboard-power-bi)
+   - [DAX Usage Overview](#dax-usage-overview)
 6. [Findings & Recommendations](#findings--recommendations)  
 7. [Future Work](#future-work)  
 8. [Screenshots Reference](#screenshots-reference)  
-9. [Project Structure](#project-structure)  
-10. [How to Run This Project](#how-to-run-this-project)
+9. [How to Run This Project](#how-to-run-this-project)
 
 ---
 
 ## 🧠 Project Overview
-This project analyzes credit card client data to predict the likelihood of default in the next month using data analytics and machine learning techniques. A Power BI dashboard is used to communicate insights interactively.
+
+### 🎯 **Project Purpose**
+This comprehensive data analytics project tackles one of the most critical challenges in the financial services industry: **predicting credit card payment defaults**. By leveraging advanced data science techniques and business intelligence tools, we aim to build a robust predictive system that can identify customers at high risk of defaulting on their credit card payments in the upcoming month.
+
+### What Does "Default" Mean in This Project?
+
+The word **"default"** simply means:
+
+> **Not paying back the money you owe on time.**
+
+So, if someone defaults on their credit card, it means they **failed to make the required payments** (usually for several months), and the bank now considers the loan or debt as **unpaid or overdue**.
+
+
+### 🔍 **What We're Solving**
+Credit card defaults represent a significant financial risk for banks and financial institutions, leading to billions in losses annually. Traditional risk assessment methods often rely on basic credit scores and historical data, but may miss subtle patterns in customer behavior that could indicate future payment difficulties. This project addresses this gap by:
+
+- **Analyzing comprehensive customer profiles** including demographics, payment history, and billing patterns
+- **Identifying hidden patterns** in payment behavior that traditional methods might miss
+- **Creating predictive models** that can proactively flag high-risk customers
+- **Providing actionable insights** for risk management and customer relationship strategies
+
+### 🛠️ **Technical Approach**
+Our methodology combines multiple data science disciplines:
+
+**1. Data Engineering & Preprocessing**
+- Cleaning and standardizing 30,000 customer records with 24 different attributes
+- Handling missing values, outliers, and data quality issues
+- Feature engineering to create meaningful predictors from raw transaction data
+
+**2. Exploratory Data Analysis**
+- Statistical analysis to understand customer demographics and payment patterns
+- Visualization of default rates across different customer segments
+- Correlation analysis to identify key risk factors
+
+**3. Machine Learning Implementation**
+- Multiple algorithm testing (Logistic Regression, Random Forest, Ensemble methods)
+- Model training and validation using industry-standard practices
+- Performance optimization and hyperparameter tuning
+
+**4. Business Intelligence Dashboard**
+- Interactive Power BI dashboard for stakeholder communication
+- Real-time visualization of key metrics and risk indicators
+- User-friendly interface for non-technical decision makers
+
+### 📊 **Expected Outcomes**
+This project delivers:
+- **Predictive accuracy** of approximately 80% in identifying potential defaulters
+- **Risk segmentation** of customers into different risk categories
+- **Feature importance analysis** showing which factors most strongly predict default
+- **Interactive dashboard** for ongoing monitoring and decision support
+- **Actionable recommendations** for risk mitigation strategies
+
+### 🏆 **Business Impact**
+The insights from this analysis can help financial institutions:
+- **Reduce financial losses** by identifying high-risk customers early
+- **Improve customer relationships** through targeted interventions
+- **Optimize credit limit decisions** based on predictive risk scores
+- **Enhance portfolio management** with data-driven risk assessment
+
+This project demonstrates the power of combining traditional statistical analysis with modern machine learning techniques to solve real-world business problems in the financial sector.
 
 ---
 
-## 🏢 Sector & Problem Statement
+##  Sector & Problem Statement
 **Sector:** Finance  
 
 **Problem Statement:**  
@@ -39,7 +100,7 @@ Can we predict whether a credit card customer will default on their payment next
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 
 - **Dataset Title:** Default of Credit Card Clients Dataset
 - **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)
@@ -50,7 +111,7 @@ Can we predict whether a credit card customer will default on their payment next
 
 ---
 
-## 🐍 Python Analytics
+##  Python Analytics
 
 The Python analysis was performed using Jupyter Notebook. The notebook is well-commented and includes markdown cells for clarity.
 
@@ -61,9 +122,9 @@ The Python analysis was performed using Jupyter Notebook. The notebook is well-c
 - Replaced incorrect or inconsistent values  
 - Outliers detected and handled
 
-📌 **Screenshots**: 
-- Data cleaning process: `screenshots/datacleaning1.0.png`
-- Cleaned dataset summary: `screenshots/datacleaning1.1.png`
+ **Screenshots**: 
+[ Data cleaning process](screenshots\datacleaning1.0.png)
+[ Cleaned dataset summary](screenshots/datacleaning1.1.png)
 
 ---
 
@@ -76,10 +137,7 @@ Used seaborn and matplotlib for visualizations:
 - Correlation heatmap  
 
 📌 **Screenshots**: 
-- EDA visualizations: `screenshots/eda1.0.png`
-- Distribution analysis: `screenshots/eda1.1.png`
-- Correlation heatmap: `screenshots/eda1.2.png`
-- Additional EDA insights: `screenshots/eda1.3png.png`
+[combined default analysis](screenshots/combinedvisual.png)
 
 ---
 
@@ -89,10 +147,16 @@ Used seaborn and matplotlib for visualizations:
 - Created derived features for better model performance
 - Analyzed feature importance and selection
 
+** Feature Engineering Process**:
+Creates new meaningful features from existing payment and bill data
+Calculates average payment amounts across all months
+Calculates average bill amounts across all months
+Creates a payment-to-bill ratio to measure payment behavior
+Selects the most important features for machine learning model training
 📌 **Screenshots**: 
-- Feature engineering process: `screenshots/feature engineering1.0.png`
+ [ Feature engineering process](screenshots/feature_engineering1.0.png)
 
----
+-
 
 ### 🔹 4. Machine Learning Model
 
@@ -101,10 +165,10 @@ Used seaborn and matplotlib for visualizations:
 - Trained model and tested predictions  
 
 📌 **Screenshots**: 
-- Model training process: `screenshots/machine learning1.0.png`
-- Model performance metrics: `screenshots/machine learning1.1.png`  
+[Model training process](screenshots/machine_learning1.0.png)
+[Model performance metrics](screenshots/machine_learning1.1.png)  
 
----
+
 
 ### 🔹 5. Evaluation Metrics
 
@@ -113,9 +177,9 @@ Used seaborn and matplotlib for visualizations:
 - Precision, Recall, F1-score  
 
 📌 **Screenshots**: 
-- Model evaluation results: `screenshots/model evaluation.png`
+ [Model evaluation results](screenshots/model_evaluation.png)
 
----
+
 
 ### 🔹 6. Innovation
 
@@ -124,41 +188,99 @@ Used seaborn and matplotlib for visualizations:
 - Implemented data export functionality for further analysis
 
 📌 **Screenshots**: 
-- Innovation implementation: `screenshots/innovation.png`
-- Data export process: `screenshots/exporting data.png`  
+ [Innovation implementation](screenshots/innovation.png)
+ [Data export process](screenshots/exporting_data.png)  
 
 ---
 
 ## 📈 Power BI Dashboard
 
-The Power BI dashboard visualizes key aspects of credit card default patterns. It includes:
+## 📊 Executive Overview Dashboard (Power BI)
 
-### 📊 Visual 1: Default Rate by Gender
-- **Purpose:** Shows gender imbalance in default likelihood  
+This dashboard provides a high-level summary of customer credit risk insights based on demographic and financial attributes. Key metrics include:
 
-### 📊 Visual 2: Default Rate by Education Level
-- **Purpose:** Explores correlation between education level and default rate  
+- **Total Customers**: 30,000
+- **Default Rate**: 22.12%
+- **Average Credit Limit**: $167.48K
+- **Total Default Cases**: 30,000
 
-### 📊 Visual 3: Default by Marital Status
-- **Purpose:** Assesses financial behavior across relationship types  
+### 🔍 Key Visualizations
 
-### 📊 Visual 4: Credit Limit Distribution
-- **Purpose:** Understands how credit limits vary among defaulters vs non-defaulters  
+- **Default Rate by Gender, Education, and Marital Status**: Understand which groups are more likely to default.
+- **Default Distribution**: Pie chart showing the ratio of defaulters vs non-defaulters.
+- **Age vs Credit Limit by Default Status**: Scatter plot illustrating credit behavior across age groups.
+  
+### 🎛 Filters Available
 
-### 📊 Visual 5: Payment Behavior (PAY_1 - PAY_6)
-- **Purpose:** Tracks late payments across months  
+- Education Level  
+- Age Group  
+- Gender  
+- Credit Limit Range  
+- Utilization Category
 
-### 📊 Visual 6: Age Distribution of Defaulters
-- **Purpose:** Finds age groups more likely to default  
+This page offers interactive filtering to explore default patterns across various customer segments, aiding in data-driven decision-making and risk profiling.
 
-### 📊 Visual 7: Balance & Bill Amount Over Months
-- **Purpose:** Shows trends in financial obligations  
+[first page of power BI](screenshots/powerBI_page1.png)
 
-📌 **Screenshot Suggestion**: Insert individual visuals from Power BI dashboard:  
 
-*Note: Screenshots can be taken from the Power BI dashboard and saved in the screenshots folder*
 
----
+
+## 🧠 Risk Analysis Dashboard (Power BI)
+
+This dashboard analyzes customer default behavior with a focus on risk prediction and payment history. Key insights include:
+
+- **Predicted vs Actual Risk Distribution**: Compares predicted risk levels to actual default outcomes.
+- **Credit Utilization vs Default Rate**: Shows how credit usage levels influence default probability.
+- **Age Group vs Default Count**: Visualizes default patterns across different age categories.
+
+### 📈 Additional Visuals
+
+- **Payment Status vs Default Rate**: Examines how past payment history relates to the chance of future default.
+- **Default Payment by Age Group**: Donut chart showing age-wise default proportions.
+
+### 🎛 Filters Available
+
+- **Payment Status**  
+- **Default Risk**  
+- **Model Confidence Level**
+
+This page supports targeted risk profiling and helps identify high-risk segments for strategic credit decisions.
+
+[second page of power BI](screenshots/powerBI_page2.png)
+
+
+## 🧪 Feature Engineering Analysis Dashboard (Power BI)
+
+This dashboard highlights engineered financial features used in modeling default risk. It explores the impact of customer spending and payment behavior on defaults.
+
+### 🔢 Key Metrics
+
+- **Average Payment Amount**: $5.28K  
+- **Average Bill Amount**: $44.98K  
+- **Average Payment Ratio**: 3.77 (Payment to Bill ratio)
+
+### 📊 Visual Insights
+
+- **Average Payment by Default Status**: Compares payment behavior of defaulters vs non-defaulters.
+- **Bill Amount vs Payment Behavior**: Scatter plot showing spend patterns across different customer groups.
+- **Payment Ratio vs Default Risk**: Assesses how well payment ratio predicts default likelihood.
+
+### 🎛 Filters Available
+
+- **Payment Behavior**: High, Medium, Low Payment Ratio  
+- **Average Bill Category**: High, Medium, Low Spenders
+
+This page aids in identifying which engineered features are useful for predicting credit default.
+[Third page of power BI](screenshots/powerBI_page3.png)
+
+
+## 🧠 DAX Usage Overview
+
+
+This Power BI project utilizes DAX (Data Analysis Expressions) extensively to calculate key insights and enable dynamic visualizations. Measures like `Total Customers = COUNT(CustomerData[ID])`, `Default Cases = CALCULATE(COUNT(CustomerData[ID]), CustomerData[Default Payment Next Month] = 1)`, and `Default Rate = DIVIDE([Default Cases], [Total Customers], 0)` provide core KPIs for the dashboard. Financial behavior metrics are derived using expressions like `Average Payment = AVERAGE(CustomerData[AVG_PAYMENT])`, `Average Bill = AVERAGE(CustomerData[AVG_BILL])`, and `Payment Ratio = DIVIDE([Average Payment], [Average Bill], 0)`. These metrics are further classified into categories using logic-based DAX, such as `Payment Behavior = SWITCH(TRUE(), [Payment Ratio] >= 1.0, "High Payment Ratio", [Payment Ratio] >= 0.5, "Medium Payment Ratio", "Low Payment Ratio")` and `Avg Bill Category = SWITCH(TRUE(), [Average Bill] >= 70000, "High Spender", [Average Bill] >= 30000, "Medium Spender", "Low Spender")`. These calculated measures and categories enable dynamic filtering, segmentation, and detailed analysis of customer risk and behavior throughout the report.
+
+
+
 
 ## 📌 Findings & Recommendations
 
@@ -202,34 +324,9 @@ The Power BI dashboard visualizes key aspects of credit card default patterns. I
 ### Power BI Dashboard Screenshots
 *To be added when dashboard screenshots are captured*
 
----
 
-## 📁 Project Structure
 
-```plaintext
-📂 big data final version/
-│
-├── 📊 credit_card_default_analysis.ipynb    # Main Python analysis notebook
-├── 📈 GENGA CHRIS 27344 FINAL EXAM.pbix     # Power BI dashboard file
-├── 📄 README.md                             # Project documentation
-├── 📋 default of credit card clients.csv    # Original dataset
-├── 🧹 cleaned_credit_card_data.csv          # Processed dataset
-├── 🔧 credit_card_features.csv              # Engineered features
-├── 🎯 model_predictions.csv                 # Model output results
-└── 📸 screenshots/                          # Visual documentation
-    ├── datacleaning1.0.png
-    ├── datacleaning1.1.png
-    ├── eda1.0.png
-    ├── eda1.1.png
-    ├── eda1.2.png
-    ├── eda1.3png.png
-    ├── exporting data.png
-    ├── feature engineering1.0.png
-    ├── innovation.png
-    ├── machine learning1.0.png
-    ├── machine learning1.1.png
-    └── model evaluation.png
-```
+
 
 ## 🚀 How to Run This Project
 
@@ -238,17 +335,8 @@ The Power BI dashboard visualizes key aspects of credit card default patterns. I
 - Required libraries: pandas, numpy, scikit-learn, seaborn, matplotlib
 - Microsoft Power BI Desktop (for dashboard viewing)
 
-### Steps
-1. **Clone/Download** this repository
-2. **Open** `credit_card_default_analysis.ipynb` in Jupyter Notebook
-3. **Run** all cells sequentially to reproduce the analysis
-4. **Open** `GENGA CHRIS 27344 FINAL EXAM.pbix` in Power BI Desktop to view the dashboard
-5. **Review** screenshots in the `screenshots/` folder for visual reference
 
-## 📞 Contact
-**Student:** GENGA Chris  
-**ID:** 27344  
-**Course:** Introduction to Big Data Analytics  
 
 ---
 *This project demonstrates end-to-end data analytics workflow from data cleaning to machine learning and business intelligence visualization.*
+
