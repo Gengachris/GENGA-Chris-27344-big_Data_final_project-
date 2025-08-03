@@ -123,8 +123,8 @@ The Python analysis was performed using Jupyter Notebook. The notebook is well-c
 - Outliers detected and handled
 
  **Screenshots**: 
-[ Data cleaning process](screenshots\datacleaning1.0.png)
-[ Cleaned dataset summary](screenshots/datacleaning1.1.png)
+[ Data cleaning process](datacleaning1.0.png)
+[ Cleaned dataset summary](datacleaning1.1.png)
 
 ---
 
@@ -339,6 +339,7 @@ This Power BI project utilizes DAX (Data Analysis Expressions) extensively to ca
 
 ---
 *This project demonstrates end-to-end data analytics workflow from data cleaning to machine learning and business intelligence visualization.*
+
 
 
 
