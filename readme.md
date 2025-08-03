@@ -137,7 +137,7 @@ Used seaborn and matplotlib for visualizations:
 - Correlation heatmap  
 
 📌 **Screenshots**: 
-[combined default analysis](screenshots/combinedvisual.png)
+![combined default analysis](combinedvisual.png)
 
 ---
 
@@ -154,7 +154,7 @@ Calculates average bill amounts across all months
 Creates a payment-to-bill ratio to measure payment behavior
 Selects the most important features for machine learning model training
 📌 **Screenshots**: 
- [ Feature engineering process](feature_engineering1.0.png)
+ ![ Feature engineering process](feature_engineering1.0.png)
 
 -
 
@@ -165,8 +165,8 @@ Selects the most important features for machine learning model training
 - Trained model and tested predictions  
 
 📌 **Screenshots**: 
-[Model training process](screenshots/machine_learning1.0.png)
-[Model performance metrics](screenshots/machine_learning1.1.png)  
+![Model training process](machine_learning1.0.png)
+![Model performance metrics](machine_learning1.1.png)  
 
 
 
@@ -177,7 +177,7 @@ Selects the most important features for machine learning model training
 - Precision, Recall, F1-score  
 
 📌 **Screenshots**: 
- [Model evaluation results](screenshots/model_evaluation.png)
+ ![Model evaluation results](model_evaluation.png)
 
 
 
@@ -188,8 +188,8 @@ Selects the most important features for machine learning model training
 - Implemented data export functionality for further analysis
 
 📌 **Screenshots**: 
- [Innovation implementation](screenshots/innovation.png)
- [Data export process](screenshots/exporting_data.png)  
+ ![Innovation implementation](innovation.png)
+ ![Data export process](exporting_data.png)  
 
 ---
 
@@ -220,7 +220,7 @@ This dashboard provides a high-level summary of customer credit risk insights ba
 
 This page offers interactive filtering to explore default patterns across various customer segments, aiding in data-driven decision-making and risk profiling.
 
-[first page of power BI](screenshots/powerBI_page1.png)
+![first page of power BI](powerBI_page1.png)
 
 
 
@@ -246,7 +246,7 @@ This dashboard analyzes customer default behavior with a focus on risk predictio
 
 This page supports targeted risk profiling and helps identify high-risk segments for strategic credit decisions.
 
-[second page of power BI](screenshots/powerBI_page2.png)
+![second page of power BI](powerBI_page2.png)
 
 
 ## 🧪 Feature Engineering Analysis Dashboard (Power BI)
@@ -271,7 +271,7 @@ This dashboard highlights engineered financial features used in modeling default
 - **Average Bill Category**: High, Medium, Low Spenders
 
 This page aids in identifying which engineered features are useful for predicting credit default.
-[Third page of power BI](screenshots/powerBI_page3.png)
+![Third page of power BI](powerBI_page3.png)
 
 
 ## 🧠 DAX Usage Overview
@@ -301,25 +301,11 @@ This Power BI project utilizes DAX (Data Analysis Expressions) extensively to ca
 - Connect Power BI to live databases for real-time dashboards  
 - Use DAX measures for deeper KPI monitoring
 
----
 
-## 🖼️ Screenshots Reference
 
-### Python Analytics Screenshots
-| Process | File Path |
-|---------|-----------|
-| Data Cleaning Process | `screenshots/datacleaning1.0.png` |
-| Cleaned Dataset Summary | `screenshots/datacleaning1.1.png` |
-| EDA Visualizations | `screenshots/eda1.0.png` |
-| Distribution Analysis | `screenshots/eda1.1.png` |
-| Correlation Heatmap | `screenshots/eda1.2.png` |
-| Additional EDA Insights | `screenshots/eda1.3png.png` |
-| Feature Engineering | `screenshots/feature engineering1.0.png` |
-| Machine Learning Process | `screenshots/machine learning1.0.png` |
-| Model Performance | `screenshots/machine learning1.1.png` |
-| Model Evaluation | `screenshots/model evaluation.png` |
-| Innovation Implementation | `screenshots/innovation.png` |
-| Data Export Process | `screenshots/exporting data.png` |
+
+
+
 
 ### Power BI Dashboard Screenshots
 *To be added when dashboard screenshots are captured*
@@ -339,6 +325,7 @@ This Power BI project utilizes DAX (Data Analysis Expressions) extensively to ca
 
 ---
 *This project demonstrates end-to-end data analytics workflow from data cleaning to machine learning and business intelligence visualization.*
+
 
 
 
