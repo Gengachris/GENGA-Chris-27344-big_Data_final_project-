@@ -121,9 +121,9 @@ The Python analysis was performed using Jupyter Notebook. The notebook is well-c
 - Replaced incorrect or inconsistent values  
 - Outliers detected and handled
 
- **Screenshots**: 
-![ Data cleaning process](datacleaning1.0.png)
-![ Cleaned dataset summary](datacleaning1.1.png)
+📌 **Screenshots**: 
+![Data cleaning process](datacleaning1.0.png)
+![Cleaned dataset summary](datacleaning1.1.png)
 
 ---
 
@@ -146,16 +146,16 @@ Used seaborn and matplotlib for visualizations:
 - Created derived features for better model performance
 - Analyzed feature importance and selection
 
-** Feature Engineering Process**:
-Creates new meaningful features from existing payment and bill data
-Calculates average payment amounts across all months
-Calculates average bill amounts across all months
-Creates a payment-to-bill ratio to measure payment behavior
-Selects the most important features for machine learning model training
+**Feature Engineering Process:**
+- Creates new meaningful features from existing payment and bill data
+- Calculates average payment amounts across all months
+- Calculates average bill amounts across all months
+- Creates a payment-to-bill ratio to measure payment behavior
+- Selects the most important features for machine learning model training
 📌 **Screenshots**: 
- ![ Feature engineering process](feature_engineering1.0.png)
+![Feature engineering process](feature_engineering1.0.png)
 
--
+---
 
 ### 🔹 4. Machine Learning Model
 
@@ -175,7 +175,7 @@ Selects the most important features for machine learning model training
 - Precision, Recall, F1-score  
 
 📌 **Screenshots**: 
- ![Model evaluation results](model_evaluation.png)
+![Model evaluation results](model_evaluation.png)
 
 
 ### 🔹 6. Innovation
@@ -185,8 +185,8 @@ Selects the most important features for machine learning model training
 - Implemented data export functionality for further analysis
 
 📌 **Screenshots**: 
- ![Innovation implementation](innovation.png)
- ![Data export process](exporting_data.png)  
+![Innovation implementation](innovation.png)
+![Data export process](exporting_data.png)  
 
 ---
 
@@ -306,7 +306,7 @@ This Power BI project utilizes DAX (Data Analysis Expressions) extensively to ca
 
 ---
 
-##  How to Run This Project
+## 🚀 How to Run This Project
 
 ### Prerequisites
 - Python 3.7+ with Jupyter Notebook
@@ -320,10 +320,14 @@ This Power BI project utilizes DAX (Data Analysis Expressions) extensively to ca
 4. **Open** `GENGA CHRIS 27344 FINAL EXAM.pbix` in Power BI Desktop to view the dashboard
 5. **Review** screenshots for visual reference
 
- 
+## 📞 Contact
+**Student:** GENGA Chris  
+**ID:** 27344  
+**Course:** Introduction to Big Data Analytics  
 
 ---
 *This project demonstrates end-to-end data analytics workflow from data cleaning to machine learning and business intelligence visualization.*
+
 
 
 
