@@ -10,20 +10,20 @@
 2. [Sector & Problem Statement](#sector--problem-statement)  
 3. [Dataset Description](#dataset-description)  
 4. [Python Analytics](#python-analytics)  
-   - [Data Cleaning](#1-data-cleaning)  
-   - [Exploratory Data Analysis](#2-exploratory-data-analysis-eda)  
-   - [Feature Engineering](#3-feature-engineering)
-   - [Machine Learning Model](#4-machine-learning-model)  
-   - [Evaluation Metrics](#5-evaluation-metrics)  
-   - [Innovation](#6-innovation)  
-5. [Power BI Dashboard](#power-bi-dashboard)  
-   - [Executive Overview Dashboard](#executive-overview-dashboard-power-bi)
-   - [Risk Analysis Dashboard](#risk-analysis-dashboard-power-bi)
-   - [Feature Engineering Analysis Dashboard](#feature-engineering-analysis-dashboard-power-bi)
-   - [DAX Usage Overview](#dax-usage-overview)
-6. [Findings & Recommendations](#findings--recommendations)  
-7. [Future Work](#future-work)  
-8. [How to Run This Project](#how-to-run-this-project)
+   - [Data Cleaning](#-1-data-cleaning)  
+   - [Exploratory Data Analysis](#-2-exploratory-data-analysis-eda)  
+   - [Feature Engineering](#-3-feature-engineering)
+   - [Machine Learning Model](#-4-machine-learning-model)  
+   - [Evaluation Metrics](#-5-evaluation-metrics)  
+   - [Innovation](#-6-innovation)  
+5. [Power BI Dashboard](#-power-bi-dashboard)  
+   - [Executive Overview Dashboard](#-executive-overview-dashboard-power-bi)
+   - [Risk Analysis Dashboard](#-risk-analysis-dashboard-power-bi)
+   - [Feature Engineering Analysis Dashboard](#-feature-engineering-analysis-dashboard-power-bi)
+   - [DAX Usage Overview](#-dax-usage-overview)
+6. [Findings & Recommendations](#-findings--recommendations)  
+7. [Future Work](#-future-work)  
+8. [How to Run This Project](#-how-to-run-this-project)
 
 ---
 
@@ -327,6 +327,7 @@ This Power BI project utilizes DAX (Data Analysis Expressions) extensively to ca
 
 ---
 *This project demonstrates end-to-end data analytics workflow from data cleaning to machine learning and business intelligence visualization.*
+
 
 
 
