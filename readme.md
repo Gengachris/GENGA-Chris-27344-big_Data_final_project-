@@ -320,13 +320,11 @@ This Power BI project utilizes DAX (Data Analysis Expressions) extensively to ca
 4. **Open** `GENGA CHRIS 27344 FINAL EXAM.pbix` in Power BI Desktop to view the dashboard
 5. **Review** screenshots for visual reference
 
-## 📞 Contact
-**Student:** GENGA Chris  
-**ID:** 27344  
-**Course:** Introduction to Big Data Analytics  
+
 
 ---
 *This project demonstrates end-to-end data analytics workflow from data cleaning to machine learning and business intelligence visualization.*
+
 
 
 
