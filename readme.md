@@ -22,9 +22,8 @@
    - [Feature Engineering Analysis Dashboard](#feature-engineering-analysis-dashboard-power-bi)
    - [DAX Usage Overview](#dax-usage-overview)
 6. [Findings & Recommendations](#findings--recommendations)  
-7. [Future Work](#future-work)  
-8. [Screenshots Reference](#screenshots-reference)  
-9. [How to Run This Project](#how-to-run-this-project)
+7. [Future Work](#future-work)   
+8. [How to Run This Project](#how-to-run-this-project)
 
 ---
 
@@ -92,7 +91,7 @@ This project demonstrates the power of combining traditional statistical analysi
 
 ---
 
-##  Sector & Problem Statement
+## 🏢 Sector & Problem Statement
 **Sector:** Finance  
 
 **Problem Statement:**  
@@ -100,7 +99,7 @@ Can we predict whether a credit card customer will default on their payment next
 
 ---
 
-##  Dataset Description
+## 📊 Dataset Description
 
 - **Dataset Title:** Default of Credit Card Clients Dataset
 - **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)
@@ -111,7 +110,7 @@ Can we predict whether a credit card customer will default on their payment next
 
 ---
 
-##  Python Analytics
+## 🐍 Python Analytics
 
 The Python analysis was performed using Jupyter Notebook. The notebook is well-commented and includes markdown cells for clarity.
 
@@ -169,7 +168,6 @@ Selects the most important features for machine learning model training
 ![Model performance metrics](machine_learning1.1.png)  
 
 
-
 ### 🔹 5. Evaluation Metrics
 
 - Accuracy Score  
@@ -178,7 +176,6 @@ Selects the most important features for machine learning model training
 
 📌 **Screenshots**: 
  ![Model evaluation results](model_evaluation.png)
-
 
 
 ### 🔹 6. Innovation
@@ -325,6 +322,7 @@ This Power BI project utilizes DAX (Data Analysis Expressions) extensively to ca
 
 ---
 *This project demonstrates end-to-end data analytics workflow from data cleaning to machine learning and business intelligence visualization.*
+
 
 
 
