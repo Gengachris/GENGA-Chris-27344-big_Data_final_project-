@@ -22,7 +22,7 @@
    - [Feature Engineering Analysis Dashboard](#feature-engineering-analysis-dashboard-power-bi)
    - [DAX Usage Overview](#dax-usage-overview)
 6. [Findings & Recommendations](#findings--recommendations)  
-7. [Future Work](#future-work)   
+7. [Future Work](#future-work)  
 8. [How to Run This Project](#how-to-run-this-project)
 
 ---
@@ -304,24 +304,27 @@ This Power BI project utilizes DAX (Data Analysis Expressions) extensively to ca
 
 
 
-### Power BI Dashboard Screenshots
-*To be added when dashboard screenshots are captured*
+---
 
-
-
-
-
-## 🚀 How to Run This Project
+##  How to Run This Project
 
 ### Prerequisites
 - Python 3.7+ with Jupyter Notebook
 - Required libraries: pandas, numpy, scikit-learn, seaborn, matplotlib
 - Microsoft Power BI Desktop (for dashboard viewing)
 
+### Steps
+1. **Clone/Download** this repository
+2. **Open** `credit_card_default_analysis.ipynb` in Jupyter Notebook
+3. **Run** all cells sequentially to reproduce the analysis
+4. **Open** `GENGA CHRIS 27344 FINAL EXAM.pbix` in Power BI Desktop to view the dashboard
+5. **Review** screenshots for visual reference
 
+ 
 
 ---
 *This project demonstrates end-to-end data analytics workflow from data cleaning to machine learning and business intelligence visualization.*
+
 
 
 
