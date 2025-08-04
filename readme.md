@@ -1,7 +1,8 @@
 # Credit Card Default Analysis
 **Capstone Project – Introduction to Big Data Analytics**  
 **Name:** GENGA Chris  
-**Student ID:** 27344  
+**Student ID:** 27344
+** Instructor:** Maniraguha Eric
 
 ---
 
@@ -324,6 +325,7 @@ This Power BI project utilizes DAX (Data Analysis Expressions) extensively to ca
 
 ---
 *This project demonstrates end-to-end data analytics workflow from data cleaning to machine learning and business intelligence visualization.*
+
 
 
 
